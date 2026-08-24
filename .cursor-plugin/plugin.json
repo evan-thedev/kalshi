@@ -1,0 +1,28 @@
+{
+  "name": "kalshi",
+  "version": "0.1.0",
+  "description": "Kalshi prediction markets connector - read markets, check balance, and place trades with user approval",
+  "author": "Evan Parrott",
+  "keywords": ["kalshi", "prediction-markets", "trading", "markets", "forecasting"],
+  "license": "MIT",
+  "variables": {
+    "type": "object",
+    "properties": {
+      "KALSHI_ACCESS_KEY": {
+        "type": "string",
+        "description": "Kalshi API Key ID (get from https://kalshi.com/account/profile)"
+      },
+      "KALSHI_PRIVATE_KEY": {
+        "type": "string",
+        "description": "RSA private key in PEM format from Kalshi account",
+        "secret": true
+      },
+      "KALSHI_BASE_URL": {
+        "type": "string",
+        "description": "Base URL for Kalshi API",
+        "default": "https://external-api.kalshi.com"
+      }
+    },
+    "required": ["KALSHI_ACCESS_KEY", "KALSHI_PRIVATE_KEY"]
+  }
+}

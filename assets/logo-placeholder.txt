@@ -1,0 +1,4 @@
+# Logo placeholder
+# In production, this would be a PNG/SVG logo for the Kalshi plugin
+# For now, this serves as a marker that a logo should go here
+# Dimensions: 256x256 recommended

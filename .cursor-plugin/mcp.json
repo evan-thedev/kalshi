@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "kalshi": {
+      "command": "node",
+      "args": ["src/index.js"],
+      "env": {
+        "KALSHI_ACCESS_KEY": "${KALSHI_ACCESS_KEY}",
+        "KALSHI_PRIVATE_KEY": "${KALSHI_PRIVATE_KEY}",
+        "KALSHI_BASE_URL": "${KALSHI_BASE_URL}"
+      }
+    }
+  }
+}
